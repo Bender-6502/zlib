@@ -49,3 +49,9 @@ user.bazelrc
 # MODULE.bazel.lock is ignored for now as per this recommendation:
 # https://github.com/bazelbuild/bazel/issues/20369
 MODULE.bazel.lock
+
+*.db
+contrib/vstudio/vc17/x86
+contrib/vstudio/vc17/x64
+contrib/vstudio/vc17/arm
+contrib/vstudio/vc17/arm64
